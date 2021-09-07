@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Meu primeiro app <span className={styles.titleblue}> Web React </span>
+          Meu primeiro app Web React - <span className={styles.titleblue}> Pedro Paulo </span>
         </h1>
         <h2>
           Minhas tarefas diárias
