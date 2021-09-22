@@ -5,7 +5,7 @@ const AppCardBullets = ({date, bullets}) => (
       <hr />
       <h5>{date}</h5>
       <ul>
-        {bullets.map((bullet) => (<li><strong>{bullet.type}</strong> {bullet.title}</li>))}
+        {bullets.map((bullet, index) => (<li key={index}><strong>{bullet.type}</strong> {bullet.title}</li>))}
       </ul>
       <hr />
     </div>
